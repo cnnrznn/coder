@@ -19,12 +19,15 @@ func New(service *service.Service) *Handler {
 func (h *Handler) HandleProblems(w http.ResponseWriter, req *http.Request) {
 }
 
-func (h *Handler) HandleProblemStatement(w http.ResponseWriter, req *http.Request) {
+func (h *Handler) HandleProblem(w http.ResponseWriter, req *http.Request) {
 }
 
-func (h *Handler) HandleTestCase(w http.ResponseWriter, req *http.Request) {
+func (h *Handler) HandleTestCaseSubmit(w http.ResponseWriter, req *http.Request) {
 	switch req.Method {
 	case "GET":
 	case "POST":
 	}
+}
+
+func (h *Handler) HandleTestCases(w http.ResponseWriter, req *http.Request) {
 }

@@ -1,4 +1,4 @@
-version: "3.9"
+version: "3"
     
 services:
   db:
@@ -16,7 +16,7 @@ services:
     build: .
     depends_on:
       - db
-    image: qm
+    image: coder
     ports:
       - "8080:8080"
     restart: always
