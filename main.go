@@ -7,7 +7,7 @@ import (
 	log "github.com/golang/glog"
 	"github.com/gorilla/mux"
 
-	"github.com/cnnrznn/coder/handler"
+	handler "github.com/cnnrznn/coder/handler"
 	"github.com/cnnrznn/coder/repository"
 	"github.com/cnnrznn/coder/service"
 )
