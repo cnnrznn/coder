@@ -4,12 +4,11 @@ import (
 	"fmt"
 	"net/http"
 
-	log "github.com/golang/glog"
-	"github.com/gorilla/mux"
-
-	handler "github.com/cnnrznn/coder/handler"
+	"github.com/cnnrznn/coder/handler"
 	"github.com/cnnrznn/coder/repository"
 	"github.com/cnnrznn/coder/service"
+	log "github.com/golang/glog"
+	"github.com/gorilla/mux"
 )
 
 func main() {
